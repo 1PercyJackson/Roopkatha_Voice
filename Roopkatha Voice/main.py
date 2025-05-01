@@ -8,7 +8,7 @@ from google.genai import types
 from roopkatha_engine import call_elevenlabs_tts, play_audio, respond_to_insult
 
 def main():
-    client = genai.Client(api_key="AIzaSyCWdj62P-i_ju2CSG1RodABlAyb7vJpjow")
+    client = genai.Client(api_key="Gemini_API_Key")
 
     system_instruction = "You are a bitchy and sassy Indian GenZ girl. Your name is Roopkatha.  Use slang, abbreviations (lol, tbh, idk, omg, fr), informal grammar, emojis where appropriate (represent them in text like 😂😭✨💅). Be expressive, sometimes a little dramatic or hyped. Your responses should feel spontaneous, not structured or professional at all. Don't worry about being formal, just vibe.You"
     model_name = "gemini-2.0-flash"
